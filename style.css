@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(156, 89, 244);
+}
+
+#array {
+    display: flex;
+    gap: 10px
+}
+
+ul li {
+    margin-top: 10px;
+}
+
+.liArr {
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+#imagemBemEstar {
+    height: 40rem;
+    width: 98vw;
+}
+
+h4 {
+    margin-left: 25px;
+    line-height: 2rem;
+}
+
+h3{
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+#preview{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#luiza {
+    height: 30rem;
+    width: 20rem;
+    border-radius: 10px;
+}
+
+section {
+    display: flex;
+}
+
+i{
+    font-size: 6rem;
+    color: black;
+}
+
+#textoSaude, #textoAutora{
+   border: 1px solid black;
+   border-radius: 5px;
+   padding: 5px;
+   display: none;
+}
